@@ -11,7 +11,7 @@ import { Pagination, Navigation } from "swiper";
 import { useEffect, useState } from "react";
 
 const Guides = () => {
-  const [slideCount, setSlideCount] = useState(3);
+  const [slideCount, setSlideCount] = useState(1);
 
   const handleResizeRoadmap = () => {
     if (window.innerWidth > 720) {
