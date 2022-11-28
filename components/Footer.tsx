@@ -50,7 +50,7 @@ const Footer = () => {
   ];
   return (
     <div className="flex justify-center items-center text-white">
-      <div className="max-w-6xl h-auto max-h-full w-full flex flex-col justify-center items-center gap-x-16 uppercase my-[3rem] mx-5 ">
+      <div className="max-w-6xl h-auto max-h-full w-full flex flex-col justify-center items-center gap-x-16 uppercase mb-[3rem] mx-5 ">
         <Image
           src="/assets/icons/LEARNAURORALOGO.svg"
           height={200}
