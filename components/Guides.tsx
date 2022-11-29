@@ -11,7 +11,7 @@ import { Pagination, Navigation } from "swiper";
 import { useEffect, useState } from "react";
 
 const Guides = () => {
-  const [slideCount, setSlideCount] = useState(1);
+  const [slideCount, setSlideCount] = useState(3);
 
   const handleResizeRoadmap = () => {
     if (window.innerWidth > 720) {
@@ -28,6 +28,7 @@ const Guides = () => {
   useEffect(() => {
     window.addEventListener("resize", handleResizeRoadmap);
   }, [slideCount]);
+
   return (
     <div className="flex justify-center items-center text-white">
       <div className="max-w-6xl h-screen max-h-full w-full flex flex-col justify-center items-center gap-x-16 uppercase  mx-5">
