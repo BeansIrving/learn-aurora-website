@@ -11,14 +11,14 @@ import { Pagination, Navigation } from "swiper";
 import { useEffect, useState } from "react";
 
 const Guides = () => {
-  const [slideCount, setSlideCount] = useState(3);
+  const [slideCount, setSlideCount] = useState(1);
 
   const handleResizeRoadmap = () => {
     if (window.innerWidth > 720) {
       setSlideCount(1);
     }
     if (window.innerWidth > 1020) {
-      setSlideCount(3);
+      setSlideCount(1);
     }
     if (window.innerWidth > 1280) {
       setSlideCount(3);
@@ -48,52 +48,8 @@ const Guides = () => {
             clickable: true,
           }}
           modules={[Pagination, Navigation]}
-          className="mySwiperRoadmap w-[400px] sm:w-[500px] xl:w-[1200px] "
+          className="mySwiperRoadmap w-[400px] sm:w-[500px]  "
         >
-          <SwiperSlide className="bg-[#1a373d]/50 rounded-md p-5 flex flex-col mySwiperTeam-slide gap-2">
-            <div className="border-gradient p-1 w-auto h-auto">
-              <Image
-                src="/assets/images/WILA.png"
-                height={500}
-                width={500}
-                alt="what is learn aurora?"
-              />
-            </div>
-            <p className="text-left">November 2, 2022</p>
-            <h1 className="font-semibold text-lg">
-              Introduction to Learn Aurora
-            </h1>
-            <div className="flex justify-end">
-              <Image
-                src="/assets/icons/right-arrow.svg"
-                height={20}
-                width={20}
-                alt="what is learn aurora?"
-              />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="bg-[#1a373d]/50 rounded-md p-5 flex flex-col mySwiperTeam-slide gap-2">
-            <div className="border-gradient p-1 w-auto h-auto">
-              <Image
-                src="/assets/images/WILA.png"
-                height={500}
-                width={500}
-                alt="what is learn aurora?"
-              />
-            </div>
-            <p className="text-left">November 2, 2022</p>
-            <h1 className="font-semibold text-lg">
-              Introduction to Learn Aurora
-            </h1>
-            <div className="flex justify-end">
-              <Image
-                src="/assets/icons/right-arrow.svg"
-                height={20}
-                width={20}
-                alt="what is learn aurora?"
-              />
-            </div>
-          </SwiperSlide>
           <SwiperSlide className="bg-[#1a373d]/50 rounded-md p-5 flex flex-col mySwiperTeam-slide gap-2">
             <div className="border-gradient p-1 w-auto h-auto">
               <Image

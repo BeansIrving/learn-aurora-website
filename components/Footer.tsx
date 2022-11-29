@@ -94,7 +94,19 @@ const Footer = () => {
           and we will respond to you.
         </p>
         <div className="flex w-[30rem] flex-row justify-between">
-          <div className="flex-col">asdasd</div>
+          <div className="flex-col">
+            <h1 className="font-[montserrat] font-semibold tracking-widest text-2xl">
+              Name{" "}
+            </h1>
+            <input
+              id="input-wager"
+              name="input-wager"
+              type="text"
+              className="px-0 py-1 leading-2 text-left bg-[transparent]
+													 text-white placeholder-gray-600 border-4 border-transparent rounded-md "
+              placeholder="asdasd"
+            />
+          </div>
           <div>asd</div>
         </div>
       </div>
