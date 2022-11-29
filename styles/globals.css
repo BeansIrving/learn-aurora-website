@@ -91,9 +91,7 @@ body {
 }
 
 input[type="text"] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 12px 5px;
   box-sizing: border-box;
   border-bottom: 3px solid #fff;
   -webkit-transition: 0.5s;
@@ -103,4 +101,13 @@ input[type="text"] {
 
 input[type="text"]:focus {
   border-bottom: 3px solid #555;
+}
+
+#message {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.1px);
+  -webkit-backdrop-filter: blur(8.1px);
+  border: 1px solid rgba(255, 255, 255, 0.41);
 }

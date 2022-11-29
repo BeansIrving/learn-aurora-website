@@ -30,7 +30,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="fixed top-0 flex text-white z-[99999]">
+      <div className="absolute top-0 flex text-white z-[99999]">
         <div className="w-screen max-w-6xl py-5 flex flex-row justify-between">
           <div className="flex items-center">
             <Image
