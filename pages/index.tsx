@@ -13,7 +13,7 @@ const Home: NextPage = () => {
     <div className="flex min-h-screen flex-col items-center justify-center">
       <Head>
         <title>Learn Aurora</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/assets/icons/LEARNAURORA.svg" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1 maximum-scale=1, user-scalable=no"

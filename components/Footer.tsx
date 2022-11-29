@@ -59,7 +59,11 @@ const Footer = () => {
     },
   ];
   return (
-    <div className="flex flex-col lg:flex-row justify-between items-center max-w-6xl h-[auto] lg:h-screen max-h-full gap-x-16 text-white my-[3rem]">
+    <div
+      className="flex flex-col lg:flex-row justify-between items-center max-w-6xl h-[auto] lg:h-screen max-h-full gap-x-16 text-white my-[3rem]"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
       <div>
         <div className="flex flex-col justify-center items-center uppercase mx-5 my-[3rem]">
           <Image

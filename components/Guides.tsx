@@ -35,9 +35,11 @@ const Guides = () => {
       id="section-guides"
     >
       <div className="max-w-6xl h-screen max-h-full w-full flex flex-col justify-center items-center gap-x-16 uppercase mx-5">
-        <h1 className="mb-14 text-7xl font-semibold" id="textgradient">
-          Guides
-        </h1>
+        <div data-aos="fade-right" data-aos-duration="1000">
+          <h1 className="mb-14 text-7xl font-semibold" id="textgradient">
+            Guides
+          </h1>
+        </div>
 
         <Swiper
           slidesPerView={slideCount}
@@ -48,7 +50,9 @@ const Guides = () => {
             clickable: true,
           }}
           modules={[Pagination, Navigation]}
-          className="mySwiperRoadmap w-[400px] sm:w-[500px]  "
+          className="mySwiperRoadmap w-[400px] sm:w-[500px]"
+          data-aos="fade-left"
+          data-aos-duration="1000"
         >
           <SwiperSlide className="bg-[#1a373d]/50 rounded-md p-5 flex flex-col mySwiperTeam-slide gap-2">
             <div className="border-gradient p-1 w-auto h-auto">
