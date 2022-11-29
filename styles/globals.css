@@ -21,6 +21,13 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+#onClick:focus {
+  background: -webkit-linear-gradient(left, #dff945, #71ee59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }

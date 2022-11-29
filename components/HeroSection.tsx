@@ -3,7 +3,7 @@ import Image from "next/image";
 const HeroSection = () => {
   return (
     <div className="flex justify-center text-white ">
-      <div className="max-w-6xl h-screen max-h-full w-full  flex  flex-col lg:flex-row justify-center items-center gap-x-16 uppercase my-5 sm:my-0 mx-5">
+      <div className="max-w-6xl h-screen max-h-full w-full flex flex-col lg:flex-row justify-center items-center gap-x-16 uppercase my-5 mx-5 sm:my-0 ">
         <div>
           <h1 className="text-2xl md:text-6xl font-[montserrat] font-extrabold">
             LEARN HOW TO USE AND BUILD ON <span id="textgradient">AURORA</span>

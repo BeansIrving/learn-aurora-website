@@ -5,6 +5,7 @@ import Courses from "../components/Courses";
 import Footer from "../components/Footer";
 import Guides from "../components/Guides";
 import HeroSection from "../components/HeroSection";
+import NavBar from "../components/NavBar";
 import Projects from "../components/Projects";
 
 const Home: NextPage = () => {
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
         />
       </Head>
 
+      <NavBar />
       <HeroSection />
       <Guides />
       <Courses />

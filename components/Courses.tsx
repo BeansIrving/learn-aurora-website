@@ -3,7 +3,10 @@ import Image from "next/image";
 const Courses = () => {
   return (
     <div className="flex justify-center items-center text-white">
-      <div className="max-w-6xl h-screen max-h-full w-full flex flex-col justify-center items-center gap-x-16 uppercase  mx-5">
+      <div
+        className="max-w-6xl h-screen max-h-full w-full flex flex-col justify-center items-center gap-x-16 uppercase mx-5"
+        id="section-courses"
+      >
         <h1 className="mb-14 text-7xl font-semibold" id="textgradient">
           Courses
         </h1>
